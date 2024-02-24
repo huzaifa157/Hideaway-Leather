@@ -432,6 +432,109 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+.container {
+    width: 600px;
+        margin: 0 auto;
+        /* background-color: #fff; */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      form {
+        display: grid;
+        gap: 10px;
+      }
+      
+      h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+      
+      .form-group {
+        display: grid;
+        gap: 5px;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #ccc;
+        resize: vertical;
+      }
+      
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #0056b3;
+      }
+      
+    #cart { border: 1px solid #ccc;
+        margin-top: 5px;
+        
+    }
+    #cart thead td{ border: 1px solid black;
+    border-left: none ;
+    border-right: none ;
+    padding: 18px ;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
+    #cart tbody td {
+       
+        border-right: none;
+        padding: 10px;
+        margin-right: 10px;
+        color: darkgray;
+    }
+    .cartinp{
+        padding: 10px 5px 10px 15px;
+        width: 70px;
+        
+    }
+    #card-add{
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid #ccc; */
+        padding: 10px;
+        margin: 2px;
+    
+    }
+    #card-add table{
+        border: 2px solid #ccc;
+        padding: 15px 19px;
+        margin: 10px;
+       
+    }
+    #card-add table td{
+        padding: 10px 220px;
+        border: 1px solid #ccc;
+    
+    }
+    #remove{
+        color: #1a1a1a;
+        font-size: 20px;
+    }
+    .normall{
+        background: #088178;
+        color: #fff;
+        padding: 12px 20px;
+    }
+    
 
 #login button:hover {
     background-color: #065c4d;
@@ -612,5 +715,28 @@ body {
 
     body {
         overflow-x: hidden;
+
     }
+
+    #card-add {
+        display: flex;
+       
+        padding: 20px;
+        width: 100%;
+    }
+    #card-add table {
+        
+        padding: 15px 19px;
+        margin: 10px;
+        width: 100%;
+    }
+    #card-add table td{
+        padding: 10px 40px;
+        border: 1px solid #ccc;
+    }
+        #cart thead td{
+            padding: 1px;
+            font-size: 6px;
+            font-weight: 900;
+        }
 }
